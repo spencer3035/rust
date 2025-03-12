@@ -2,6 +2,8 @@
 #![allow(dead_code)]
 #![allow(improper_ctypes)]
 
+// Issue: https://github.com/rust-lang/rust/issues/97463
+
 #[link(name = "rust_test_helpers", kind = "static")]
 extern "C" {
     pub fn issue_97463_leak_uninit_data(a: u32, b: u32, c: u32) -> u16;

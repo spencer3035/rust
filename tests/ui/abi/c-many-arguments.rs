@@ -2,6 +2,8 @@
 #![allow(dead_code)]
 #![allow(improper_ctypes)]
 
+// Issue: https://github.com/rust-lang/rust/issues/28676
+
 #[derive(Copy, Clone)]
 pub struct Quad {
     a: u64,

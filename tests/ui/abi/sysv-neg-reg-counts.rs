@@ -2,6 +2,8 @@
 #![allow(dead_code)]
 #![allow(improper_ctypes)]
 
+// Issue: https://github.com/rust-lang/rust/issues/62350
+
 #[derive(Copy, Clone)]
 pub struct QuadFloats {
     a: f32,

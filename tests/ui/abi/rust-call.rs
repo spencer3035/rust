@@ -1,5 +1,7 @@
 #![feature(unboxed_closures)]
 
+// Issue: https://github.com/rust-lang/rust/issues/22565
+
 extern "rust-call" fn b(_i: i32) {}
 //~^ ERROR functions with the "rust-call" ABI must take a single non-self tuple argument
 
