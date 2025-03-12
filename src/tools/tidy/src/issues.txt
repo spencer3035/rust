@@ -1,10 +1,6 @@
 ============================================================
     ⚠️⚠️⚠️NOTHING SHOULD EVER BE ADDED TO THIS LIST⚠️⚠️⚠️
 ============================================================
-ui/abi/issue-28676.rs
-ui/abi/issues/issue-22565-rust-call.rs
-ui/abi/issues/issue-62350-sysv-neg-reg-counts.rs
-ui/abi/issues/issue-97463-broken-abi-leaked-uninit-data.rs
 ui/argument-suggestions/issue-100154.rs
 ui/argument-suggestions/issue-100478.rs
 ui/argument-suggestions/issue-101097.rs
